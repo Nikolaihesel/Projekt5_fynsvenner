@@ -1,0 +1,177 @@
+:root {
+
+    --clr-light: #f7f7f2;
+    --clr-dark: #272727;
+    --clr-accent-red: #f4594d;
+    --clr-accent-blue: #4466a3;
+    
+
+    --ff-prim: 'Montserrat', sans-serif;
+
+    --fs-Header: 4rem;
+    --fs-subhead: 2.5rem;
+    --fs-paragraph: 1rem;
+}
+
+body {
+font-family: var(--ff-prim);
+color: var(--clr-dark);
+
+}
+
+h1 {
+ font-size: var(--fs-Header);
+font-weight: 600;
+}
+
+h2 {
+    font-size: var(--fs-subhead);
+    font-weight: 500;
+}
+
+h3 {
+    font-size: var(--fs-subhead);
+    font-weight: 500;
+}
+
+p {
+    font-size: var(--fs-paragraph);
+    font-weight: 500s;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--clr-light);
+}
+
+
+.button-arrow {
+/* 
+    <div class="button-arrow">
+    Læs mere
+    <i class="fas fa-arrow-right"></i>
+</div> */
+
+    border: solid var(--clr-light) 4px;
+    background: var(--clr-accent-blue);
+    border-radius: 8px;
+    color: var(--clr-light);
+    text-align: center;
+    max-width: fit-content;
+    box-shadow: 3px 3px 26px -9px var(--clr-dark);
+    cursor: pointer;
+    transition: transform .25s ease-in-out;
+}
+
+.section-header{
+background-image: url(/Images/joyce-mccown-boR7SuyzB7Q-unsplash.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+min-height: 70vh;
+
+}
+
+.button-arrow:hover {
+   transform: scale(1.05);
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f7f7f283;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    color: var(--clr-dark);
+    padding: 2em;
+    
+}
+
+nav a {
+    text-decoration: none;
+    
+}
+
+.nav-image{
+    height: 100px;
+}
+
+.line-nav {
+    height: 6px;
+    width: 95vw;
+    background: var(--clr-dark);
+    border-radius: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 
+.section-header::before {
+    content: '';
+    position: absolute;
+    bottom: 30vh;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to top, #f7f7f2, transparent);
+    z-index: 1;
+
+} */
+
+
+.section-content-landing {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+}
+
+.section-content-landing p {
+    max-width: 80ch;
+    margin: 2em 0;
+}
+
+.img-container-landing {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.img-container-landing img {
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.our-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.our-work p {
+    margin: 2em 0;
+    max-width: 80ch;
+}
+
+.our-work img{
+    margin-top: 3em;
+    width:fit-content;
+}
