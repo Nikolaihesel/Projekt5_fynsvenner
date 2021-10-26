@@ -4,12 +4,17 @@
     --clr-dark: #272727;
     --clr-accent-red: #f4594d;
     --clr-accent-blue: #4466a3;
+    --clr-accent-lgreen: #80b21469;
+    --clr-accent-mgreen:#80b214;
+    --clr-accent-dgreen: #1f6a5d;
+
     
 
     --ff-prim: 'Montserrat', sans-serif;
 
     --fs-Header: 4rem;
     --fs-subhead: 2.5rem;
+    --fs-underhead: 1.5rem;
     --fs-paragraph: 1rem;
 }
 
@@ -30,7 +35,7 @@ h2 {
 }
 
 h3 {
-    font-size: var(--fs-subhead);
+    font-size: var(--fs-underhead);
     font-weight: 500;
 }
 
@@ -67,6 +72,20 @@ body {
     box-shadow: 3px 3px 26px -9px var(--clr-dark);
     cursor: pointer;
     transition: transform .25s ease-in-out;
+}
+
+.btn-select {
+    border: none;
+    color: var(--clr-light);
+    background: var(--clr-accent-mgreen);
+    padding: 1em;
+    min-width: 100px;
+    border-radius: 8px;
+    transition: transform .25s ease-in-out;
+}
+
+.btn-select:hover {
+    color: var(--clr-accent-dgreen);
 }
 
 .section-header{
@@ -175,3 +194,23 @@ nav a {
     margin-top: 3em;
     width:fit-content;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    background: var(--clr-dark);
+    color: var(--clr-light);
+
+}
+
+
+footer ul{
+    max-width:30ch;
+    margin: 2em 3em;
+}
+
+footer li {
+    list-style: none;
+    margin: .5em 1em;
+}
+
