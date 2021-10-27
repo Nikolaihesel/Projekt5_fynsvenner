@@ -64,7 +64,7 @@ body {
 </div> */
 
     border: solid var(--clr-light) 4px;
-    background: var(--clr-accent-blue);
+    background: var(--clr-accent-dgreen);
     border-radius: 8px;
     color: var(--clr-light);
     text-align: center;
@@ -176,6 +176,10 @@ nav a {
     margin-right: auto;
 }
 
+.img-stoette {
+    height: 20em;
+}
+
 
 .our-work {
     display: flex;
@@ -185,9 +189,14 @@ nav a {
     margin-top: 5em;
 }
 
+.our-work button {
+    margin: 3em 0;
+}
+
 .our-work p {
     margin: 2em 0;
-    max-width: 80ch;
+    max-width: 50ch;
+    text-align: center;
 }
 
 .our-work img{
@@ -225,18 +234,19 @@ footer li {
     margin: 3em 0;
 }
 
+.section-hvem h2 {
+    color: var(--clr-accent-dgreen)
+}
+
 .section-hvem img {
   justify-content: center;
 }
 
 .content-hvem{
     width: 60ch;
-    text-align: center;
     margin-left: 3em;
     margin-right: 3em;
     
-}
-.img3-hvem {
 }
 
 .img3-hvem img {
@@ -254,4 +264,39 @@ footer li {
 
 }
 
+
+.section-meet-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-meet-board h2  {
+    color: var(--clr-accent-dgreen)
+}
+.section-meet-board h3  {
+    color: var(--clr-accent-dgreen)
+}
+
+.section-meet-board button {
+    margin: 3em 0;
+}
+
+.member-container{
+    display: flex;
+}
+
+.board-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.board-member img {
+    border-radius: 50%;
+    margin-bottom: 2em;
+}
 
