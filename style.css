@@ -393,3 +393,36 @@ footer li {
     text-transform: uppercase;
 }
 
+/* CSR stopper her */
+
+
+.section-vaer-med {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.section-vaer-med img {
+    height: 400px;
+    border: var(--clr-accent-blue) solid 2px;
+    border-radius: 8px;
+    margin: 1em;
+
+}
+
+.img-container-vaer-med {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+}
+
+#vaer-med {
+    background: var(--clr-accent-dgreen);
+}
+
+#vaer-med:hover {
+    color: var(--clr-dark);
+}
