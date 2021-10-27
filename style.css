@@ -383,7 +383,7 @@ footer li {
 
 }
 
-.csr-span {
+.lgreen-span {
     color: var(--clr-accent-mgreen)
 }
 
@@ -425,4 +425,61 @@ footer li {
 
 #vaer-med:hover {
     color: var(--clr-dark);
+}
+
+/* støt side slutter her */
+
+.section-stoet-privat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-stoet-privat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80ch;
+    text-align: center;
+}
+
+.info-stoet-privat h2 {
+    margin: 1em;
+}
+
+.info-stoet-privat h3 {
+    margin: 1em;
+}
+
+.info-stoet-privat p {
+    margin: 1em;
+}
+
+.checkbox-amount {
+   margin: 0 1em;
+}
+
+.flex-container-stoet-privat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-donate-info{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+}
+
+.form-donate-info form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img-container-stoet-privat img {
+    height: 500px;
 }
