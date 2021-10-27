@@ -147,7 +147,7 @@ nav a {
 
 } */
 
-
+/* det støtter vi sider starter her */
 .section-content-landing {
 
     display: flex;
@@ -223,7 +223,7 @@ footer li {
     margin: .5em 1em;
 }
 
-
+/* hvem er vi side starter her */
 .section-hvem {
     display: flex;
     justify-content: space-evenly;
@@ -299,4 +299,64 @@ footer li {
     border-radius: 50%;
     margin-bottom: 2em;
 }
+
+/* Kontakt sider starter her */
+
+.section-contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 0;
+}
+
+.section-contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    padding: 1em;
+    width: 80%;
+}
+
+
+.icon-container-contact {
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+}
+
+.icon-container-contact i {
+    margin:  0 .4em;
+}   
+
+.input-container-contact {
+    display: flex;
+}
+
+.input-container-contact input {
+    padding: 1em;
+    margin: 1em;
+    width: 100%;
+    border: solid .1px var(--clr-dark);
+    border-radius: 8px;
+}
+
+#message-tous {
+    padding: 1em;
+    margin: 1em;
+    height: 100%;
+    width: 94%;
+    border: solid .1px var(--clr-dark);
+    border-radius: 8px;
+    overflow: auto;
+}
+
+
+#submit-btn-contact {
+    width: 100%;
+}
+
+
+
 
