@@ -466,20 +466,50 @@ footer li {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 3em;
 }
 
 .form-donate-info{
     display: flex;
     flex-direction: row;
     flex-basis: 50%;
+    width: 100%;
 }
 
 .form-donate-info form {
     display: flex;
     flex-direction: column;
+    width: 200%;
     
 }
 
 .img-container-stoet-privat img {
-    height: 500px;
+    height: 400px;
+    margin: 5em;
+    margin-left: 20em;
 }
+
+.flex-container-stoet-privat input {
+    padding: 1em;
+    width: 200%;
+    border: solid grey .2px;
+    border-radius: 20px;
+    margin-right: 10em;
+    margin: 1em 0;
+
+
+}
+
+.flex-container-stoet-privat label {
+  margin: 1em 0;
+
+
+}
+
+.checkbox-flex-container {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+  
+}
+
