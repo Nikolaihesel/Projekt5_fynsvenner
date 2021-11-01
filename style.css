@@ -5,7 +5,7 @@
     --clr-accent-red: #f4594d;
     --clr-accent-blue: #4466a3;
     --clr-accent-lgreen: #80b21469;
-    --clr-accent-mgreen:#80b214;
+    --clr-accent-mgreen:#7cb305;
     --clr-accent-dgreen: #1f6a5d;
 
     
@@ -51,6 +51,7 @@ p {
     padding: 0;
 }
 
+
 body {
     background: var(--clr-light);
 }
@@ -89,7 +90,7 @@ body {
 }
 
 .section-header{
-background-image: url(/Images/joyce-mccown-boR7SuyzB7Q-unsplash.jpg);
+background-image: url(/Images/header12.png);
 background-size:cover;
 background-repeat: no-repeat;
 min-height: 70vh;
