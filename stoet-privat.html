@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script  src="app.js" defer></script>
 </head>
 <body>
     <section class="section-header">
@@ -61,7 +62,7 @@
 </div>
 <div class="flex-container-stoet-privat">
 <div class="form-donate-info">
-    <form action="" autocomplete="on">
+    <form action="" autocomplete="on" id="form-donate" onsubmit="confirmDonation()">
     <label for="fname">Navn</label>
     <input type="text" placeholder="Dit navn" id="fname-donate" name="fname" required>
     <label for="lname">Efternavn</label>
@@ -76,10 +77,11 @@
     <label for="cpr">CPR-nummer</label>
     <input type="text" placeholder="CPR-nummer" id="cpr-donate" name="cpr"  required>
     <br>
-    <button type="submit" class="btn-select">Støt nu!</button>
+    <button  type="submit" class="btn-select">Støt nu!</button>
 
 </form>
 </div>
+
 
 
 <div class="img-container-stoet-privat">
@@ -89,6 +91,14 @@
 
 
 </section>
+
+<div class="bg-blur">
+    <div class="donate-modal">
+        <ul id="menu">
+        </ul>
+        
+    </div>
+    </div>
 
 
 

@@ -147,7 +147,7 @@ nav a {
 
 .line-nav {
     height: 6px;
-    width: 95vw;
+    width: 95%;
     background: var(--clr-dark);
     border-radius: 40%;
     margin-left: auto;
@@ -564,6 +564,46 @@ footer li {
     margin-bottom: 3em;
     justify-content: space-evenly;
 }
+
+
+/* donate-modal starter her //privat */
+
+.donate-modal {
+background: white;
+color: var(--clr-accent-red);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 12px;
+padding: 5em;
+position: absolute;
+left: 50%;
+  margin-left: -50px;
+z-index: 1;
+
+}
+
+.donate-modal li {
+    list-style: none;
+
+}
+
+.bg-blur {
+    filter: blur(8px);
+    position: absolute;
+    z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
