@@ -54,7 +54,7 @@
             <p>61 73 70 43</p>
         </div>
 
-        <form action="" autocomplete="on">
+        <form onsubmit="tak()" autocomplete="on">
             <div class="input-container-contact">
             <input type="text" placeholder="Dit navn" id="fname" name="fname" >
             <input type="text" placeholder="Din Email" id="email-input" name="Email" >
@@ -62,7 +62,7 @@
         <input type="text" id="message-tous" placeholder="Skriv din besked her.">
    
 <br>
-            <button class="btn-select" type="submit" id="submit-btn-contact"> Send
+            <button class="btn-select" id="submit-btn-contact" > Send
             </button>
         </form>
 
@@ -84,7 +84,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="pop-op-container">
+    <div class="pop-op-container" id="popupcon">
         <div class="pop-op">
             <div class="close-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="78.59" height="78.692" viewBox="0 0 78.59 78.692">
