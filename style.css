@@ -89,11 +89,19 @@ body {
     color: var(--clr-accent-dgreen);
 }
 
-.section-header{
+/* .section-header{
 background-image: url(/Images/header12.png);
-background-size:cover;
+background-size: contain;
+background-size: 100%;
 background-repeat: no-repeat;
-min-height: 70vh;
+background-position: center;
+height: 80vh; 
+
+
+}*/
+
+.hero-img {
+    width: 100%;
 
 }
 
@@ -106,6 +114,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     background-color: #f7f7f283;
+    margin-top: 1em;
 }
 
 nav ul {
@@ -116,7 +125,15 @@ nav li {
     list-style: none;
     color: var(--clr-dark);
     padding: 2em;
+    cursor: pointer;
+    font-weight: bold;
+    transform: .25s ease-in;
     
+}
+
+nav li:hover {
+ opacity: .7;
+
 }
 
 nav a {
@@ -402,10 +419,12 @@ footer li {
     justify-content: center;
     align-items: center;
     margin: 2em;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .section-vaer-med img {
-    height: 400px;
+    width: 100%;
     border: var(--clr-accent-blue) solid 2px;
     border-radius: 8px;
     margin: 1em;
@@ -418,6 +437,7 @@ footer li {
     align-items: center;
     justify-content: center;
     margin: 2em;
+    flex-wrap: nowrap;
 }
 
 #vaer-med {
@@ -516,8 +536,7 @@ footer li {
 
 
 
-/* 
- */
+
 
 
 
@@ -545,6 +564,26 @@ footer li {
     margin-bottom: 3em;
     justify-content: space-evenly;
 }
+
+
+
+
+
+.test {
+    background-image: 
+        linear-gradient(to bottom right, #ff00cc,#045aca, #6631e2);
+        border-radius: 50%;
+        height: 10em;
+        width: 10em;
+        background-size: 200% 200%;
+        animation: movingGradient 5s linear infinite alternate;
+}
+
+@keyframes movingGradient {
+    from {background-position: 0 0;}
+    to { background-position: 100% 100%;}
+}
+
 
 
 
