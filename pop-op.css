@@ -1,12 +1,26 @@
+.pop-op-container {
+    display: none;
+
+}
+
+
+
+
+
+
 .pop-op {
     background: #1F6A5D;
     height: 600px;
     width: 800px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     border-radius: 40px;
-    margin-left:auto;
-    margin-right: auto;
+    position: fixed;
+    left: 25%;
+    top: 10%;
+    
 }
 
 
@@ -33,3 +47,28 @@
     margin: 50px;
     
 }
+.billedeikon img {
+    width: 100px;
+}
+
+.line-nav {
+    
+}
+.close-btn {
+    width: 78.59px; 
+    height: 78.692px;
+    /* viewBox: 0 0 78.59 78.692; */
+   position: absolute;
+   right: 1em;
+   top: 1em;
+    
+    
+    
+}
+/* 
+hr.rounded {
+    border-top: 2px solid #bbb;
+    border-radius: 2px;
+    width: 50%;
+    background-color: #54AA1D;
+  }  */

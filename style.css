@@ -147,11 +147,12 @@ nav a {
 
 .line-nav {
     height: 6px;
-    width: 95vw;
+    width: 95%;
     background: var(--clr-dark);
     border-radius: 40%;
     margin-left: auto;
     margin-right: auto;
+    color: ;
 }
 /* 
 .section-header::before {
