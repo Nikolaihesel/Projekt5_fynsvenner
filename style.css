@@ -567,6 +567,46 @@ footer li {
 }
 
 
+/* donate-modal starter her //privat */
+
+.donate-modal {
+background: white;
+color: var(--clr-accent-red);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 12px;
+padding: 5em;
+position: absolute;
+left: 50%;
+  margin-left: -50px;
+z-index: 1;
+
+}
+
+.donate-modal li {
+    list-style: none;
+
+}
+
+.bg-blur {
+    filter: blur(8px);
+    position: absolute;
+    z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
