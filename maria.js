@@ -4,6 +4,7 @@ var email= document.getElementById ('email-imput');
 var besked = document.getElementById ('message-tous');
 var knap = document.getElementById ('submit-btn-contact');
 var popper = document.getElementById('popupcon');
+
 var beskedinfo = [navn, email];
 console.log('link');
 function tak(){
@@ -25,5 +26,15 @@ function tak(){
 
 
 }
+
+var lukKnap = document.getElementById('close-btn')
+
+    function closePopup() {
+
+        lukKnap.style.display = "none"
+
+    }
+
+
 
 
