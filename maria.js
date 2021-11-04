@@ -32,14 +32,6 @@ function createMenuItem(field) {
 };
 
 
-
-
-
-
-
-
-
-
 var lukKnap = document.getElementById('close-btn')
 
     function closePopup() {
