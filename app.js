@@ -24,7 +24,7 @@ function createMenuItem(field) {
     li.classList.add("listItem_confirm");
     li.textContent = field;
     return li;
-}
+};
 
 
 
