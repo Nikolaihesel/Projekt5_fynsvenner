@@ -52,9 +52,6 @@ p {
 }
 
 
-body {
-    background: var(--clr-light);
-}
 
 
 .button-arrow {
@@ -112,9 +109,8 @@ height: 80vh;
 
 nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #f7f7f283;
-    margin-top: 1em;
 }
 
 nav ul {
@@ -205,7 +201,19 @@ nav a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5em;
+
+   
+}
+
+.our-work iframe {
+    margin: 3em;
+}
+
+#work-content {
+    color: var(--clr-light);
+    background: rgb(18,91,66);
+    background: linear-gradient(90deg, rgba(18,91,66,1) 0%, rgb(8, 68, 57) 100%);
+
 }
 
 .our-work button {
@@ -213,9 +221,14 @@ nav a {
 }
 
 .our-work p {
-    margin: 2em 0;
+    margin-bottom: 5em;
     max-width: 50ch;
     text-align: center;
+}
+
+.our-work h3 {
+    margin: 2em 0;
+    font-weight: bold;
 }
 
 .our-work img{
@@ -250,7 +263,12 @@ footer li {
     margin-left: auto;
     margin-right: auto;
     flex-wrap: wrap;
-    margin: 3em 0;
+    padding: 3em 0;
+}
+
+
+.section-hvem-color {
+    background: var(--clr-light);
 }
 
 .section-hvem h2 {
@@ -268,6 +286,10 @@ footer li {
     
 }
 
+.container {
+    background: var(--clr-light);
+}
+
 .img3-hvem img {
     margin: .4em;
 
@@ -275,6 +297,26 @@ footer li {
 
 .img-hvem {
     height: 10em;
+}
+
+.img-btm {
+    height: 15em;
+
+}
+
+
+.img-container-our-work {
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-wrap-our-work {
+position: relative;
+top: -90px;
+
+}
+
+.img-container-our-work img {
+    margin: 4em;
 }
 
 .img-hvem-single {
@@ -572,22 +614,34 @@ footer li {
 .donate-modal {
 background: white;
 color: var(--clr-accent-red);
-display: flex;
+display: none; 
 justify-content: center;
 align-items: center;
 border-radius: 12px;
 padding: 5em;
-position: absolute;
+position: relative;
 
+}
 
+.donate-modal ul{
+    display: flex;
+justify-content: center;
+align-items: center; 
+flex-direction: column;
+
+}
+.donate-modal i{
+    cursor: pointer;
 }
 
 .donate-modal li {
     list-style: none;
 }
 
-
-
+.fa-window-close {
+    float: right;
+height: 30px
+}
 
 
 

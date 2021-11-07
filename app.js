@@ -1,14 +1,18 @@
 
 function confirmDonation(){
+
+
      const firstName = document.getElementById('fname-donate').value;
      const lastName = document.getElementById('lname-donate').value;
      const email = document.getElementById('email-donate').value;
      const cpr = document.getElementById('cpr-donate').value;
 
-     const modalConfirm = document.getElementById('donate-modal');
+     const modalConfirm = document.getElementById('closeme');
     
 
 const contactInfo = [firstName, lastName, email, cpr];
+
+modalConfirm.style.display="block"
 
 const menu = document.getElementById('menu');
 contactInfo.forEach((field)=> {
@@ -16,6 +20,8 @@ contactInfo.forEach((field)=> {
     menu.appendChild(createMenuItem(field));
 }
 )
+
+modalConfirm.style.display="block"
 };
 
 
@@ -36,4 +42,13 @@ function handleForm(event) {
 
 form.addEventListener('submit', handleForm);
 
+
+
+function closeModal() {
+let modal = document.getElementById("closeme")
+
+if (modal = style.display="block"){
+    modal.style.display="none"}
+    else modal.style.display="block"
+};
 
