@@ -11,6 +11,8 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="pop-op.css">
+<link rel="stylesheet" href="simon.css">
+<script src="simon.js"defer></script>
 <script src="maria.js"defer > </script>
 </head>
 <body>
@@ -131,6 +133,43 @@
             <li><input type="checkbox" name="" id=""> <label for="">Andet beløb</label></li>
 
            <li> <button class="btn-select">Start</button> </li>
+
+           <input type="text" id="tilføj" placeholder="Navn">
+
+           <br>
+
+           <button type="button" name="button" onclick="tjekMedlem()" class="btn-medlem">Er jeg medlem?</button>
+           
+           <div id="medlem">
+
+            <div class="medlem_style">
+
+              <button type="button" name="button" id="btn_close" onclick="closePopup()">X</button>
+
+              <p>Du er medlem!</p>
+              <p>Mange tak for støtten. Vil du læse mere om hvad vi går og laver?</p>
+               <p>Så klik på knappen under.</p>
+
+              <button type="button" name="button" class="btn-select" onclick="window.location.href='Stoette.html'">Det støtter vi</button>
+            </div>
+
+        </div>
+
+        <div id="ikke_medlem">
+
+          <div class="medlem_style">
+
+            <button type="button" name="button" id="btn_close" onclick="closePopup()">X</button>
+
+            <p>Du er ikke medlem!</p>
+            <p>Gør en forskel. Sammen kan vi tage ansvar.</p>
+            <p>Tryk på knapper og bliv medlem.</p>
+            <br>
+            <button type="button" name="button" class="btn-select" onclick="window.location.href='vaer-med.html'">Tilmeld dig her!</button>
+
+          </div>
+
+        </div>
             
     </ul>
 
