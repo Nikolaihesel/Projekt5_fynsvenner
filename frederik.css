@@ -1,0 +1,49 @@
+button {
+  cursor: pointer;
+}
+
+#medlem, #ikke_medlem {
+  display: none;
+}
+
+.medlem_style {
+  width: 600px;
+  background-color: #1F6A5D;
+  color: white;
+  padding: 80px 160px;
+  position: absolute;
+  bottom: 70%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+.btn-medlem {
+  border: none;
+  color: var(--clr-light);
+  background: var(--clr-accent-mgreen);
+  padding: 1em;
+  min-width: 100px;
+  border-radius: 8px;
+  transition: transform .25s ease-in-out;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+#tilføj {
+  margin-left: 16px;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+#btn_close {
+  float: right;
+  color: white;
+  background-color: #1F6A5D;
+  border: none;
+  margin-right: -155px;
+  margin-top: -75px;
+  font-size: 20px;
+}

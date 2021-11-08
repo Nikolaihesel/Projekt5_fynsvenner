@@ -8,7 +8,7 @@
     --clr-accent-mgreen:#7cb305;
     --clr-accent-dgreen: #1f6a5d;
 
-    
+
 
     --ff-prim: 'Montserrat', sans-serif;
 
@@ -58,7 +58,7 @@ body {
 
 
 .button-arrow {
-/* 
+/*
     <div class="button-arrow">
     Læs mere
     <i class="fas fa-arrow-right"></i>
@@ -97,7 +97,7 @@ background-size: contain;
 background-size: 100%;
 background-repeat: no-repeat;
 background-position: center;
-height: 80vh; 
+height: 80vh;
 
 
 }*/
@@ -109,7 +109,7 @@ height: 80vh;
 
 .button-arrow:hover {
    transform: scale(1.05);
-    
+
 }
 
 nav{
@@ -130,7 +130,7 @@ nav li {
     cursor: pointer;
     font-weight: bold;
     transform: .25s ease-in;
-    
+
 }
 
 nav li:hover {
@@ -140,7 +140,7 @@ nav li:hover {
 
 nav a {
     text-decoration: none;
-    
+
 }
 
 .nav-image{
@@ -156,7 +156,7 @@ nav a {
     margin-right: auto;
     color: ;
 }
-/* 
+/*
 .section-header::before {
     content: '';
     position: absolute;
@@ -230,7 +230,7 @@ footer {
     justify-content: center;
     background: var(--clr-dark);
     color: var(--clr-light);
-
+    position: relative;
 }
 
 
@@ -267,7 +267,7 @@ footer li {
     width: 60ch;
     margin-left: 3em;
     margin-right: 3em;
-    
+
 }
 
 .img3-hvem img {
@@ -349,7 +349,7 @@ footer li {
 
 .icon-container-contact i {
     margin:  0 .4em;
-}   
+}
 
 .input-container-contact {
     display: flex;
@@ -504,7 +504,7 @@ footer li {
     display: flex;
     flex-direction: column;
     width: 200%;
-    
+
 }
 
 .img-container-stoet-privat img {
@@ -534,7 +534,7 @@ footer li {
     display: flex;
     flex-direction: row;
     white-space: nowrap;
-  
+
 }
 
 
@@ -613,7 +613,7 @@ z-index: 1;
 
 
 .test {
-    background-image: 
+    background-image:
         linear-gradient(to bottom right, #ff00cc,#045aca, #6631e2);
         border-radius: 50%;
         height: 10em;
@@ -626,7 +626,3 @@ z-index: 1;
     from {background-position: 0 0;}
     to { background-position: 100% 100%;}
 }
-
-
-
-
