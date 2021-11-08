@@ -30,10 +30,12 @@
 
 }
 
+
 .popop h1 {
    font-size: 60px;
    display: flex;
    justify-content: center;
+
 }
 .popop-brodtekst {
     text-align: justify;
@@ -64,6 +66,10 @@
     
     
     
+}
+
+.text-area-popup {
+    display: inline;
 }
 /* 
 hr.rounded {

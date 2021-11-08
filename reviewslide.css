@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+.slider{
+    display: block;
+    height: 100%;
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slide{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slide-img{     
+    width: 100%;
+    padding: 40px;
+    transform: scale(0.7);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.testimonial-text{
+   font-weight:300;
+   
+   line-height: 1rem;
+   color: black;
+
+}   
+
+.author-text{
+
+    margin-top:30px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.author-text span{
+
+    display: block;
+    color: rgb(93, 93, 93);
+    font-weight: 300;
+}
+
+
+
+.slide-text{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.slide-img img{
+    height: 100%;
+    width: 300px;
+}
+
+.prev,
+.next{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #80B214;
+}
+
+.buttons{
+    position:absolute;
+    margin-top: -60px;
+    top: 315px;
+    transform: translatex(-50%);
+    left: 50%;
+    width: 90px;
+    height: 45px;
+    background-color: white;
+    box-shadow: wheat;
+    border-radius: 50px;
+    overflow: hidden;
+
+}
+
+.prev{
+
+    left: 0;
+
+}
+.next{
+
+    right: 0;
+     
+}
+.next::after,
+.prev::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.next::after{
+    background-image: url(./Images/reviewslider/next.svg) ;
+}
+.prev::after{
+    background-image: url(./Images/reviewslider/prev.svg) ;
+
+}
+
+@media only screen and (min-width:768px){
+    .slide{
+        flex-direction: row;
+        text-align: left;
+    }
+    .slide-text{
+
+        background-position: 10% top;
+        background-size: 100px;
+        align-items: flex-start;
+
+    }
+
+
+    .slide-img img{
+        width: 400px;
+    }
+    .buttons {
+        top:415px; 
+        transform:translate(0);
+        left: calc(100% - 350px);
+    }
+
+
+}
+
+.slide-2{
+    display: none;
+
+}   
